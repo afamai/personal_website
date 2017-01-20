@@ -1,0 +1,26 @@
+<div class="container content">
+	<h1>Projects</h1>
+	<hr>
+	<div class="container-fluid">
+		<div class="block">
+			<h3>Colorman</h3>
+			<img style="width:300px;height:auto;"class="icon" src="../images/colormanIcon.png"></img>
+			<div class="details">
+			
+				<p>This is a simple flash game that I made using Adobe Flash Professional CS6 and Actionscript 3. It is a platformer game where the goal is 
+				to navigate through the obstacle and reach the protal in every level.</p>
+				<a class="button" href="http://webdev.scs.ryerson.ca/~a4mai/?action=colorman">play</a>
+			</div>
+		</div>
+		<div class="block">
+			<h3>Java Paint</h3>
+			<img style="width:400px; height:auto;"class="icon" src="../images/javaPaint.png"></img>
+			<div class="details">
+				
+				<p>This is a paint program that I created using Java. Make sure to have Java downloaded on your computer before running the jar file.</p>
+				<a class="button" href="projects/AlphaPaintProgram.jar">download</a>
+			</div>
+		</div>
+	</div>
+	<hr>
+</div>

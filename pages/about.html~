@@ -1,0 +1,28 @@
+<div class="container content">
+	<h1>Welcome!</h1>
+	<hr>
+	<h3>About Me</h3>
+	<p>Hello! My name is Alpha Mai, I am a second year Computer Science student currently studying in Ryerson University.</p>
+	<p>I enjoying creating games using my programming skills. Currently I have created a simple platformer game using Adobe Flash CS6 and Actionscript 3 called 
+	<a href="http://cps530proj/?action=colorman">Colorman</a>. I'm also teaching myself how to create a Javascript game, so I can compare the 2 languages together (Actionscript 3 and Javascript). 
+	My goal is to create a game using one of these languages and summit it to one of the big web gaming sites, such as <a target="_blank" href="http://armorgames.com/">Armorgames</a>, 
+	<a target="_blank" href="http://www.miniclip.com/games/en/">Miniclip</a>, <a target="_blank" href="http://www.kongregate.com/">Kongregate</a>, etc.</p>
+	<p>Other than creating games, I can also create applications. <a href="projects/AlphaPaintProject.jar">Here</a> I have created a paint program using Java. Some interesting
+	features in this application is that you can save and load images onto the application and draw on it. The application also allows the users to open multiple panels at once if the user likes to 
+	work on multiple paintings at once. Finally with the simple GUI the user can quickly create fasinating paintings.</p>
+	<p>There are many things that I have yet to experince and learn, and I am currently open to any new job experience. Feel free to check out my <a href="http://webdev.scs.ryerson.ca/~a4mai/?action=projects">projects</a>.</p>
+	<p>Technical Skills: </p>
+	<ul>
+		<li>Javascript</li>
+		<li>Actionscript 3</li>
+		<li>C/C++</li>
+		<li>Java</li>
+		<li>Haskell</li>
+		<li>Lisp</li>
+		<li>Elixir</li>
+		<li>Perl</li>
+		<li>ASP</li>
+		<li>PHP</p>
+	</ul>
+	<hr>
+</div>

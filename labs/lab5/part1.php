@@ -49,7 +49,7 @@ Cols:    <input type="number" name="cols" min="3" max="12" value="3">
 		</pre>
 		</form>
 		<?php
-        if(!isset($_COOKIE[$hits])
+        if(!isset($_COOKIE[$hits]))
             echo "You visited this page 1 time(s)";
         else
             echo "You visited this page ". $_COOKIE[$hits]." time(s)";

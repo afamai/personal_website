@@ -1,0 +1,18 @@
+{
+  "tracks": {
+    "radioname": "Yimago Radio 2",
+    "rank": "1",
+    "isradionomy": "1",
+    "radurl": "http://www.radionomy.com/yimago-radio-2",
+    "track": {
+      "uniqueid": "3534886278",
+      "title": "Wonderful World (1998)",
+      "artists": "Imua",
+      "starttime": "2016-11-20 00:36:29.55",
+      "playduration": "136131",
+      "current": "1",
+      "cover": "http://i3.radionomy.com/tracks/232/0c11f09f-db8b-4d9c-99cd-c530a56edbd5?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e",
+      "callmeback": "65531"
+    }
+  }
+}

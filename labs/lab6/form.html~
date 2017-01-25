@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		p{
+		color:red;
+		}
+		</style>
+		<title>Lab6</title>
+	</head>
+	<body>
+		<script type="text/javascript" src="script.js"></script>
+		<form action="http://www2.scs.ryerson.ca/~a4mai/cgi-bin/lab6.cgi" method="get" onSubmit="return check()">
+		<pre>
+Name: 		<input type="text" id="name" name="name"><p id="nameError"></p>
+Phone Number: 	<input type="text" id="phone" name="phone"><p id="phoneError"></p>
+Address: 	<input type="text" id="address" name="address" style="width: 300px"><p id="addressError"></p><br>
+<input type="submit" value="Submit">
+		</pre>
+		</form>
+		
+	</body>
+</html>

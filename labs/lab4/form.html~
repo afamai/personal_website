@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">  
+		<title>Lab#4 part2</title>
+	</head>
+	<body>
+		<h3>Animal Creator</h3>
+		<form action="http://www2.scs.ryerson.ca/~a4mai/cgi-bin/form.cgi" method="get">
+			Enter a name: <input type="text" name="name"><br><br>
+			Select an animal: <br>
+			<input type="radio" name="animal" value="lion" checked>Lion<br>
+			<input type="radio" name="animal" value="kangaroo">Kangaroo<br>
+			<input type="radio" name="animal" value="elephant">Elephant<br>
+			<input type="radio" name="animal" value="raccoon">Raccoon<br><br>
+			<select name="bdg">
+				<option value="flowers">Flowers</option>
+				<option value="explosion">Explosion</option>
+				<option value="sunray">Sun Ray</option>
+			</select><br><br>
+			Background Color: <input type="color" name="color"><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>

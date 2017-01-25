@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab#1</title>
+	</head>
+	<body  style="font-family:Arial;background:#ffd480;">
+		<h1 style="background:red;padding:20px 20px;width:250px;border:5px solid black;text-align:center;">LAB #1</h1>
+		<div style="background:lightgreen;width:200px;padding: 10px;border:3px dashed green;margin:10px 0px;">
+			<h5 style="margin:0px;">Name: Alpha Mai</h5>
+			<h5 style="margin:0px;">Student Number: 500704607</h5>
+		</div>
+		<div style="background:lightgrey;width:300px;border: 5px double grey;">
+			<h4 style="margin:10px;">Here is a list of animals: </h4>
+			<ul style="list-style-type:none;">
+				<li style="border-left: 2px solid red; background:darkgrey;width:100px;margin-bottom:5px;padding-left:5px;">Dog</li>
+				<li style="border-left: 2px solid red; background:darkgrey;width:100px;margin-bottom:5px;padding-left:5px;">Cat</li>
+				<li style="border-left: 2px solid red; background:darkgrey;width:100px;margin-bottom:5px;padding-left:5px;">Duck</li>
+				<li style="border-left: 2px solid red; background:darkgrey;width:100px;margin-bottom:5px;padding-left:5px;">Tiger</li>
+				<li style="border-left: 2px solid red; background:darkgrey;width:100px;padding-left:5px;">Chicken</li>
+			</ul>
+		</div>
+		<button type="button" style="font-size:16px;padding:15px;margin:10px 0px;" onclick="window.alert('Hello');">Click on me!</button><br>
+		<a style="font-size:14px;" href="technicalReport.html" target="_blank">Technical Report</a>
+		<a style="font-size:14px;" href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fscs.ryerson.ca%2F~a4mai%2Flab1%2Fmainpage.html" target="_blank">Validation Report</a>
+	</body>
+</html>

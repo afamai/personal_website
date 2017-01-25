@@ -1,0 +1,16 @@
+pre{
+    font-family:Sans-Serif;
+    font-size:18px;
+}
+table{
+    font-size: 22px;
+    border-collapse:collapse;
+}
+td{
+    border:1px solid black;
+    padding:3px;
+}
+.red{
+    border:1px solid red;
+    color:red;
+}

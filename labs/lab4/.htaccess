@@ -1,4 +1,4 @@
-AuthUserFile /home/a4mai/public_html/lab4/.htpasswd
+AuthUserFile /home/a4mai/labs/lab4/.htpasswd
 AuthType Basic
 AuthName "Password Protected Area"
 Require valid-user

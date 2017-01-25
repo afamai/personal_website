@@ -9,8 +9,10 @@
 		response.cookies("visit").expires = Date() + 10
 		response.write("This is your first time here!")
 	else
+        if(request.cookies("visit")("hits") > 0) then
+            response.cookies("visit")("hits") = request.cookies("visit")("hits") + 1
+        end if
 		response.write("You have visited this page " & request.cookies("visit")("hits")  & " times. Last visit was on " & request.cookies("visit")("time") &"<br>")
-        response.cookies("visit")("hits") = request.cookies("visit")("hits") + 1
 	end if
 	response.cookies("visit")("time") = date()&" "& DateAdd("h",3,time())
 

@@ -1,13 +1,13 @@
 <!DOTYPE html>
-<html>
-	<head>
-		<?php
+<?php
 		$hits = "hit";
 		if(!isset($_COOKIE[$hits]))
 			setcookie($hits,1,time()+(86400*30),"/");
 		else
 			setcookie($hits,$_COOKIE[$hits]+1,time()+(86400*30),"/")
-		?>
+?>
+<html>
+	<head>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<title>Lab#5 Part1</title>
 	</head>
@@ -49,11 +49,6 @@ Cols:    <input type="number" name="cols" min="3" max="12" value="3">
 		</pre>
 		</form>
 		<?php
-		$hits="hits";
-		if(!isset($_COOKIE[$hits]))
-			setcookie($hits,1,time()+(86400*30),"/");
-		else
-			setcookie($hits,$_COOKIE[$hits]+1,time()+(86400*30),"/");
 		echo "You visited this page ". $_COOKIE[$hits]." time(s)";
 		?>
 	</body>

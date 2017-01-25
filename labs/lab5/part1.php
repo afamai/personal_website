@@ -1,4 +1,3 @@
-<!DOTYPE html>
 <?php
 		$hits = "hit";
 		if(!isset($_COOKIE[$hits]))
@@ -6,6 +5,7 @@
 		else
 			setcookie($hits,$_COOKIE[$hits]+1,time()+(86400*30),"/")
 ?>
+<!DOTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">

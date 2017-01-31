@@ -6,7 +6,7 @@ xmlHttp.onreadystatechange = function(){
     display(arr);
   }
 }
-xmlHttp.open("GET", "cache_yr4.txt", true);
+xmlHttp.open("GET", "cache_yr4.json", true);
 xmlHttp.send();
 function display(array)
 {

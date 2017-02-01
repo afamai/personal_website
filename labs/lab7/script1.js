@@ -1,21 +1,24 @@
 var xmlHttp;
 if (window.XMLHttpRequest) {
-  xmlHttp = new XMLHttpRequest();
+    xmlHttp = new XMLHttpRequest();
+    window.alert("xml");
 }
 else if (window.ActiveXObject)  {
   xmlHttp= new ActiveXObject("Microsoft.XMLHTTP");
+    window.alert("active");
 }
 
 xmlHttp.onreadystatechange = function(){
   if(this.readyState == 4 && this.status == 200)
-  {
+    {
+	window.alert(this.responseText);
     display(this);
   }
 }
-xmlHttp.overrideMimeType('text/xml');
-xmlHttp.open("GET", "cache_yr2.xml", false);
+xmlHttp.open("GET", "cache_yr2.xml", true);
 xmlHttp.send();
 function display(xml){
+    window.alert(xml.reponseText);
   var xmlDoc = xml.responseXML;
   var track = xmlDoc.getElementsByTagName("track")[0];
   document.getElementById("radioName").innerHTML = xmlDoc.getElementsByTagName("radioname")[0].firstChild.nodeValue;

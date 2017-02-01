@@ -1,17 +1,31 @@
-<tracks>
-    <radioname>Yimago Radio 2</radioname>
-    <rank>1</rank>
-    <isradionomy>1</isradionomy>
-    <radurl>http://www.radionomy.com/yimago-radio-2</radurl>
-    <track>
-        <uniqueid>3697680162</uniqueid>
-        <title>Smart Man (2014)</title>
-        <artists>Amy McCarley</artists>
-        <starttime>2017-01-31 20:30:41.65</starttime>
-        <playduration>238819</playduration>
-        <current>1</current>
-        <cover>http://i3.radionomy.com/tracks/232/65c0628d-5363-4cdf-9794-51601a22cc09?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e</cover>
-        <callmeback>242703</callmeback>
-    </track> 
-</tracks>
+
+    <tracks>
+    	<radioname>Yimago Radio 2</radioname>
+        <rank>1</rank>
+    	<isradionomy>1</isradionomy>
+        <radurl>http://www.radionomy.com/yimago-radio-2</radurl>
+        <track>
+        	<uniqueid>3700048401</uniqueid>
+        	<title>Ua Mau Ke Ea O Ka &apos;Aina I Ka Pono (1986)</title>
+            <artists>Dennis Pavao</artists>
+            <starttime>2017-02-01 20:08:06.35</starttime>
+            <playduration>231452</playduration>
+            <current>1</current>
+            
+                    <cover>http://i3.radionomy.com/tracks/232/2a298a4c-7c39-4622-8f34-9bb640e89da2?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e</cover>
+                    
+                 
+            	
+            
+				
+            	<callmeback>145409</callmeback>
+                
+			
+			
+			
+			
+        </track> 
+        
+        
+    </tracks>
 	

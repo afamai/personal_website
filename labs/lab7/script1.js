@@ -5,7 +5,7 @@ xmlHttp.onreadystatechange = function(){
     display(this);
   }
 }
-xmlHttp.open("GET", "cache_yr2.xml", true);
+xmlHttp.open("GET", "cache_yr2.xml", false);
 xmlHttp.send();
 function display(xml){
   var xmlDoc = xml.responseXML;

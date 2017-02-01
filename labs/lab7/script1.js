@@ -1,4 +1,10 @@
-var xmlHttp = new XMLHttpRequest();
+var xmlHttp;
+if (window.XMLHttpRequest) {
+      xmlHttp = new XMLHttpRequest();
+}
+else if (window.ActiveXObject)  {
+    xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
 xmlHttp.onreadystatechange = function(){
   if(this.readyState == 4 && this.status == 200)
   {

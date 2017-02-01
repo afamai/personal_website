@@ -1,31 +1,17 @@
-
-    <tracks>
-    	<radioname>Yimago Radio 2</radioname>
-        <rank>1</rank>
-    	<isradionomy>1</isradionomy>
-        <radurl>http://www.radionomy.com/yimago-radio-2</radurl>
-        <track>
-        	<uniqueid>3697680162</uniqueid>
-        	<title>Smart Man (2014)</title>
-            <artists>Amy McCarley</artists>
-            <starttime>2017-01-31 20:30:41.65</starttime>
-            <playduration>238819</playduration>
-            <current>1</current>
-            
-                    <cover>http://i3.radionomy.com/tracks/232/65c0628d-5363-4cdf-9794-51601a22cc09?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e</cover>
-                    
-                 
-            	
-            
-				
-            	<callmeback>242703</callmeback>
-                
-			
-			
-			
-			
-        </track> 
-        
-        
-    </tracks>
+<tracks>
+    <radioname>Yimago Radio 2</radioname>
+    <rank>1</rank>
+    <isradionomy>1</isradionomy>
+    <radurl>http://www.radionomy.com/yimago-radio-2</radurl>
+    <track>
+        <uniqueid>3697680162</uniqueid>
+        <title>Smart Man (2014)</title>
+        <artists>Amy McCarley</artists>
+        <starttime>2017-01-31 20:30:41.65</starttime>
+        <playduration>238819</playduration>
+        <current>1</current>
+        <cover>http://i3.radionomy.com/tracks/232/65c0628d-5363-4cdf-9794-51601a22cc09?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e</cover>
+        <callmeback>242703</callmeback>
+    </track> 
+</tracks>
 	

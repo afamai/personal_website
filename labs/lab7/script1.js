@@ -5,12 +5,14 @@ if (window.XMLHttpRequest) {
 else if (window.ActiveXObject)  {
   xmlHttp= new ActiveXObject("Microsoft.XMLHTTP");
 }
+
 xmlHttp.onreadystatechange = function(){
   if(this.readyState == 4 && this.status == 200)
   {
     display(this);
   }
 }
+xmlHttp.overrideMimeType('text/xml');
 xmlHttp.open("GET", "cache_yr2.xml", false);
 xmlHttp.send();
 function display(xml){
